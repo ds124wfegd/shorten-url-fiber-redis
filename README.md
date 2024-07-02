@@ -1,6 +1,6 @@
 ##﻿# shorten-url-fiber-redis
 
- #Данный сервис позволят сокращать объемные ссылки до 6 символов.
+# Данный сервис позволят сокращать объемные ссылки до 6 символов.
 
 # Установлено ограничение до 10 ссылок в 30 минут. При превышении данного лимита, вызывается ошибка: "Rate limit exceeded".
 
@@ -8,10 +8,10 @@
 
 Пример POST запроса и ответа сериса по адресу: localhost:3000/api/v1
 
-##запрос:
+## запрос:
 {"url":"https://www.youtube.com/watch?v=OnVoIAAJeOk"}
 
-#ответ:
+# ответ:
 {
     "URL": "https://www.youtube.com/watch?v=OnVoIAAJeOk",
     "short": "localhost:3000/194d12",
@@ -22,18 +22,18 @@
 
 ![Uploading image.png…]()
 
-#                      ...
+#                       ...
 
 ![Uploading image.png…]()
 
 
 
-##Пример POST запроса и ответа сериса при истичении лимита по адресу: localhost:3000/api/v1
+## Пример POST запроса и ответа сериса при истичении лимита по адресу: localhost:3000/api/v1
 
-#запрос:
+# запрос:
 {"url":"https://www.youtube.com/watch?v=qwwq"}
 
-#ответ:
+# ответ:
 {
     "error": "Rate limit exceeded",
     "rate_limit_rest": 25
