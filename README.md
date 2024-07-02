@@ -19,10 +19,15 @@
 ### ответ:
 {
     "URL": "https://www.youtube.com/watch?v=OnVoIAAJeOk",
+    
     "short": "localhost:3000/194d12",
+    
     "Expiry": 24,
+    
     "rate_remaining": 9,
+    
     "XRateLimitReset": 30
+    
 }
 
 ![Uploading 1.png…]()
@@ -41,6 +46,7 @@
 ### ответ:
 {
     "error": "Rate limit exceeded",
+    
     "rate_limit_rest": 25
 }
 
